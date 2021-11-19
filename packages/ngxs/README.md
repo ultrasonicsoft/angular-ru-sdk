@@ -123,6 +123,7 @@ export class AppComponent {
 `counter.state.ts`
 
 ```ts
+import { Injectable } from '@angular/core';
 import { State } from '@ngxs/store';
 import { DataAction, StateRepository } from '@angular-ru/ngxs/decorators';
 import { NgxsDataRepository } from '@angular-ru/ngxs/repositories';
